@@ -1,0 +1,57 @@
+section {
+  background: #efefef;
+  box-shadow: 8px 8px 2 #000;
+  border: #ddd;
+  border-radius: 4px;
+  padding: 12px;
+  width: fit-content;
+  position: relative;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  background: #efefef;
+  width: 256px;
+}
+
+#title {
+  font-size: 1rem;
+  padding-bottom: 8px;
+}
+
+#create {
+  font-size: 0.8rem;
+  padding-top: 8px;
+}
+
+#createNote {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}
+
+#pin {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+.icon {
+  height: 1rem;
+}
+
+.actions {
+  margin-top: 1rem;
+}
+
+.actions > img {
+  margin-right: 0.5rem;
+}
+
+.actions img {
+  height: 1.6rem;
+}

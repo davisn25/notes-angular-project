@@ -1,0 +1,53 @@
+header {
+  padding: 36px;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-right: 4rem;
+}
+
+nav h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  height: 3rem;
+}
+
+.website {
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+form {
+  display: flex;
+  border: 16px;
+  background: #fff;
+  padding: 8px 16px;
+  border: solid 1px #000;
+  border-radius: 8px;
+}
+
+form button {
+  background: #fff;
+  margin-right: 1rem;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+form button:hover {
+  background: #eee;
+  transition-duration: 0.1s;
+}
+
+form input {
+  font-size: 1.5rem;
+}
+
+.hamburger {
+  height: 3rem;
+}
