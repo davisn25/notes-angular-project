@@ -8,7 +8,7 @@ import { Component, Input } from '@angular/core';
 export class MainComponent {
   listaNotas = [
     {
-      titulo: "BBBBBB",
+      titulo: "",
       conteudo: "deu certo",
       tipo: "tipo2"
     },

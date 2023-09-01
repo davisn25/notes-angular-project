@@ -8,7 +8,14 @@ import { Component, Input } from '@angular/core';
 export class NotaComponent {
   @Input() nota = {
     titulo: "aaaaaa",
-    conteudo: "bbbbbb",
+    conteudo: "",
     tipo: "type"
+  }
+  tamanhoNota():string {
+    if(this.nota.conteudo.length >= 150) {
+      return 'nota-g';
+    } else {
+      return 'nota-p';
+    }
   }
 }
